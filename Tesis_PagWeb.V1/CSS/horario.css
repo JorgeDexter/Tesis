@@ -1,0 +1,84 @@
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+}
+
+.texto-principal{
+    width: 100%;
+    height: 17rem;
+}
+.second-part{
+    width: 100.5%;
+    height: 50rem;
+    margin-left: -10px;
+}
+.table tr th{
+    border: solid #1f53c5;
+    border-collapse: collapse;
+}
+.inter{
+    padding: 5px;
+}
+/* Botones del footer*/
+.container-ult{
+    width: 45%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 28%;
+
+}
+
+.btn{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 10px;
+    width: 30%;
+    margin: 30px;
+    color: black;
+}
+.btn-2{
+    border: 3px solid;
+}
+
+.btn-2:hover{
+    background-color: #001a2b;
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+}
+
+.btn-2 span:nth-child(n){
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+    transition: all 0.6s ease;
+}
+
+.btn-2 span:nth-child(1){
+    right: 10%;
+    top: -10px;
+    background-color: #fff;
+}
+
+.btn-2 span:nth-child(2){
+    left: 10%;
+    bottom: -10px;
+}
+
+.btn-2:hover span:nth-child(1){
+    right: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+    background-color: var(--color);
+    
+}
+
+.btn-2:hover span:nth-child(2){
+    left: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+}
